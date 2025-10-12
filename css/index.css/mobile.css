@@ -10,6 +10,7 @@
     display: inline;
     right: 15px;
     bottom: 15px;
+    z-index: 99999999;
 
     border-radius: 20%;
     border: 1px solid rgba(255, 255, 255, 0.48);
@@ -728,10 +729,6 @@ body {
             }
         }
     }
-}
-
-hr {
-    display: none;
 }
   
 .img-banner {
