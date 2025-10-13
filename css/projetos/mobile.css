@@ -6,6 +6,32 @@
     --corQuatro: #4B7568;
 }
 
+.uppage-mobile {
+    display: inline;
+    right: 15px;
+    bottom: 15px;
+
+    border-radius: 20%;
+    border: 1px solid rgba(255, 255, 255, 0.48);
+
+    z-index: 99999;
+
+    position: fixed;
+
+    width: 50px;
+    height: 50px;
+
+    background-color: #18241e73;
+    backdrop-filter: blur(70%);
+
+    
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
 @media screen and (max-width: 768px) and (min-width: 389px) {
     * {
         margin: 0;

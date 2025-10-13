@@ -8,6 +8,10 @@
 
 @media screen and (min-width: 1430px) {
 
+.uppage-mobile {
+    display: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -330,6 +334,11 @@ header {
 }
 
 @media screen and (max-width: 1431px) and (min-width: 1024px) {
+
+.uppage-mobile {
+    display: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -810,6 +819,11 @@ hr{
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
+
+.uppage-mobile {
+    display: none;
+}
+
 * {
     margin: 0;
     padding: 0;
