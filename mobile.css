@@ -302,6 +302,144 @@ body {
         }
     }
 
+.oferta {
+    width: 75%;
+    max-width: 2500px;
+    margin: auto;
+    margin-bottom: 20px;
+
+    .container-promo {
+        margin: 10px auto;
+        
+
+        .promocao {
+            margin: 15px auto;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgba(255, 255, 255, 0.76);
+
+            width: 330px;
+            height: auto;
+
+            background-color: #4370693f;
+            border: 1px solid rgba(255, 255, 255, 0.308);
+
+        .titulo-card {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            strong {
+                font-size: 20px;
+                color: white;
+            }
+        }
+
+        .body-card {
+            display: flex;
+            justify-content: center;
+            ul {
+                margin: 15px 0;
+                li {
+                    margin-bottom: 5px;
+                    list-style-type: none;
+                }
+            }
+        }
+
+        .button-card {
+            display: flex;
+            margin: 20px auto;
+            justify-content: center;
+
+            button {
+                background: #1a1f1d42;
+                width: 120px;
+                height: 30px;
+                border: 1px solid rgba(255, 255, 255, 0.568);
+
+            a {
+                font-family: "Hubot Sans", sans-serif;
+                font-weight: bold;
+                text-decoration: none;
+                color: #048f2e;
+                transition: 1s;
+            }
+            }:hover {
+                a {
+                    color: #02fc4d;
+                }
+            }
+        }
+
+    }
+
+        .afiliado {
+            margin: 15px auto;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgba(255, 255, 255, 0.76);
+
+            width: 330px;
+            height: auto;
+
+            background-color: #4370693f;
+            border: 1px solid rgba(255, 255, 255, 0.308);
+
+        .titulo-card {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            strong {
+                font-size: 20px;
+                color: white;
+            }
+        }
+
+        .body-card {
+            display: flex;
+            justify-content: center;
+            ul {
+                margin: 15px 0;
+                li {
+                    margin-bottom: 5px;
+                    list-style-type: none;
+                }
+            }
+        }
+
+        .button-card {
+            display: flex;
+            margin: 15px auto;
+            justify-content: center;
+
+            button {
+                background: #1a1f1d42;
+                width: 120px;
+                height: 30px;
+                border: 1px solid rgba(255, 255, 255, 0.568);
+
+            a {
+                font-family: "Hubot Sans", sans-serif;
+                font-weight: bold;
+                text-decoration: none;
+                color: #5e1db3;
+                transition: 1s;
+            }
+            }:hover {
+                a {
+                    color: #b502fc;
+                }
+            }
+        }
+        }
+    }
+
+    .bi-fire {
+        color: rgb(255, 136, 0);
+    }
+
+}
+
     .projetos-desenvolvidos {
     padding: 30px;
     margin: auto;
@@ -1012,6 +1150,145 @@ body {
         }
         }
     }
+
+.oferta {
+    width: 75%;
+    max-width: 2500px;
+    margin: auto;
+    margin-bottom: 20px;
+
+    .container-promo {
+        margin: 10px auto;
+        
+
+        .promocao {
+            margin: 15px auto;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgba(255, 255, 255, 0.76);
+
+            width: 250px;
+            height: auto;
+
+            background-color: #4370693f;
+            border: 1px solid rgba(255, 255, 255, 0.308);
+
+        .titulo-card {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            strong {
+                font-size: 20px;
+                color: white;
+            }
+        }
+
+        .body-card {
+            display: flex;
+            justify-content: center;
+            ul {
+                margin: 15px 0;
+                li {
+                    margin-bottom: 5px;
+                    list-style-type: none;
+                }
+            }
+        }
+
+        .button-card {
+            display: flex;
+            margin: 20px auto;
+            justify-content: center;
+
+            button {
+                background: #1a1f1d42;
+                width: 120px;
+                height: 30px;
+                border: 1px solid rgba(255, 255, 255, 0.568);
+
+            a {
+                font-family: "Hubot Sans", sans-serif;
+                font-weight: bold;
+                text-decoration: none;
+                color: #048f2e;
+                transition: 1s;
+            }
+            }:hover {
+                a {
+                    color: #02fc4d;
+                }
+            }
+        }
+
+    }
+
+        .afiliado {
+            margin: 15px auto;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgba(255, 255, 255, 0.76);
+
+            width: 250px;
+            height: auto;
+
+            background-color: #4370693f;
+            border: 1px solid rgba(255, 255, 255, 0.308);
+
+        .titulo-card {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            strong {
+                font-size: 20px;
+                color: white;
+            }
+        }
+
+        .body-card {
+            display: flex;
+            justify-content: center;
+            ul {
+                margin: 15px 0;
+                li {
+                    margin-bottom: 5px;
+                    list-style-type: none;
+                }
+            }
+        }
+
+        .button-card {
+            display: flex;
+            margin: 15px auto;
+            justify-content: center;
+
+            button {
+                background: #1a1f1d42;
+                width: 120px;
+                height: 30px;
+                border: 1px solid rgba(255, 255, 255, 0.568);
+
+            a {
+                font-family: "Hubot Sans", sans-serif;
+                font-weight: bold;
+                text-decoration: none;
+                color: #5e1db3;
+                transition: 1s;
+            }
+            }:hover {
+                a {
+                    color: #b502fc;
+                }
+            }
+        }
+        }
+    }
+
+    .bi-fire {
+        color: rgb(255, 136, 0);
+    }
+
+}
+
 
     
 .ver-mais {
