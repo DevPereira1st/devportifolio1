@@ -303,14 +303,12 @@ body {
     }
 
 .oferta {
-    width: 75%;
-    max-width: 2500px;
+    width: 90%;
     margin: auto;
     margin-bottom: 20px;
 
     .container-promo {
         margin: 10px auto;
-        
 
         .promocao {
             margin: 15px auto;
@@ -1152,7 +1150,7 @@ body {
     }
 
 .oferta {
-    width: 75%;
+    width: 90%;
     max-width: 2500px;
     margin: auto;
     margin-bottom: 20px;
