@@ -436,6 +436,74 @@ body {
         color: rgb(255, 136, 0);
     }
 
+    .pagamentos {
+        margin: auto;
+        width: 75%;
+        max-width: 2500px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+
+        .titu_pagamentos {
+            display: flex;
+            justify-content: center;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgb(238, 225, 225);
+            font-size: 15px;
+            margin: 50px;
+        }
+
+        .formas {
+            margin: auto;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgb(238, 225, 225);
+            
+            
+
+            ul {
+                display: flex;
+                justify-content: center;
+                gap: 1em;
+        
+                
+                li {
+                    list-style: none;
+                    display: flex;
+                    text-align: center;
+                    justify-content: space-between;
+                    font-size: 10px;
+                }
+            }
+
+            i {
+                font-size: 15px;
+                padding-right: 10px;
+            }
+
+            strong {
+                padding-left: 5px;
+                color: rgb(204, 200, 200);
+                font-weight: 300;
+            }
+
+            img {
+                width: 25px;
+                height: 25px;
+                padding-right: 10px;
+            }
+        }
+
+        .pagamento_inteligent {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgba(201, 189, 189, 0.699);
+            margin-top: 50px;
+            font-size: 13px;
+        }
+    }
+
+
 }
 
     .projetos-desenvolvidos {
@@ -1283,6 +1351,75 @@ body {
 
     .bi-fire {
         color: rgb(255, 136, 0);
+    }
+
+    .pagamentos {
+        margin: auto;
+        width: 75%;
+        max-width: 2500px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+
+        .titu_pagamentos {
+            display: flex;
+            justify-content: center;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgb(238, 225, 225);
+            font-size: 12px;
+            margin: 50px;
+        }
+
+        .formas {
+            margin: auto;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgb(238, 225, 225);
+            
+            
+
+            ul {
+                display: block;
+                justify-content: center;
+                gap: 1em;
+                
+        
+                
+                li {
+                    margin-bottom: 0.8rem;
+                    display: flex;
+                    list-style: none;
+                    text-align: center;
+                    font-size: 10px;
+                    justify-content: first baseline;
+                }
+            }
+
+            i {
+                font-size: 15px;
+                padding-right: 10px;
+            }
+
+            strong {
+                padding-left: 5px;
+                color: rgb(204, 200, 200);
+                font-weight: 300;
+            }
+
+            img {
+                width: 15px;
+                height: 15px;
+                padding-right: 10px;
+            }
+        }
+
+        .pagamento_inteligent {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgba(201, 189, 189, 0.699);
+            margin-top: 50px;
+            font-size: 13px;
+        }
     }
 
 }
