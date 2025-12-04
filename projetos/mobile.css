@@ -7,12 +7,12 @@
 }
 
 .uppage-mobile {
-    display: inline;
+    display: flex;
     right: 15px;
     bottom: 15px;
 
     border-radius: 20%;
-    border: 1px solid rgba(255, 255, 255, 0.48);
+    border: 1px solid 0;
 
     z-index: 99999;
 
@@ -21,25 +21,31 @@
     width: 50px;
     height: 50px;
 
-    background-color: #18241e73;
-    backdrop-filter: blur(70%);
+    background-color: #a7a5a517;
+    backdrop-filter: blur(20%);
 
     
 
     img {
-        width: 50px;
-        height: 50px;
+        margin: auto;
+        width: 30px;
+        height: 30px;
+        filter: invert(85%);
     }
+}
+
+body {
+    background-color: var(--corBack);
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #080b08 12%, transparent 12.5%, transparent 87%, #080b08 87.5%, #080b08), linear-gradient(150deg, #080b08 12%, transparent 12.5%, transparent 87%, #080b08 87.5%, #080b08), linear-gradient(30deg, #080b08 12%, transparent 12.5%, transparent 87%, #080b08 87.5%, #080b08), linear-gradient(150deg, #080b08 12%, transparent 12.5%, transparent 87%, #080b08 87.5%, #080b08), linear-gradient(60deg, #080b0877 25%, transparent 25.5%, transparent 75%, #080b0877 75%, #080b0877), linear-gradient(60deg, #080b0877 25%, transparent 25.5%, transparent 75%, #080b0877 75%, #080b0877);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 }
 
 @media screen and (max-width: 768px) and (min-width: 389px) {
     * {
         margin: 0;
         padding: 0;
-    }
-
-    body {
-        background-color: var(--corBack);
     }
 
     .logo {
@@ -420,9 +426,6 @@ hr {
         padding: 0;
     }
 
-    body {
-        background-color: var(--corBack);
-    }
 
     .navbar {
         display: none;
