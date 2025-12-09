@@ -7,23 +7,10 @@
 }
 
 body {
-    background-color: var(--corBack);
+    background-color: var(--corDois);
     opacity: 1;
     background-image:  linear-gradient(#0a0e0b 2.9000000000000004px, transparent 2.9000000000000004px), linear-gradient(to right, #0a0e0b 2.9000000000000004px, #050a05 2.9000000000000004px);
     background-size: 58px 58px;
-}
-
-@media screen and (min-width: 1430px) {
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    z-index: 99999999999;
-    position: sticky;
-    top: 15px;
 }
 
 .menu {
@@ -86,7 +73,7 @@ header {
                 background-color: #4370692d;
                 backdrop-filter: blur(30px);
                 border-radius: 25px;
-                border: 1px solid rgba(255, 255, 255, 0.164);
+                border: 1px inset rgba(255, 255, 255, 0.164);
                 transition: 0.3s ease-in;
 
                 li {
@@ -100,14 +87,28 @@ header {
             }
 
             .contact:hover {
-                background-color: var(--corDois);
-
+                background-color: #4370695e;
+                backdrop-filter: blur(68px);
+                border: 1px outset rgba(255, 255, 255, 0.164);
             }
 
 
         }
     }
 
+}
+
+@media screen and (min-width: 1430px) {
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    z-index: 99999999999;
+    position: sticky;
+    top: 15px;
 }
 
 .container-principio {
@@ -167,7 +168,7 @@ header {
             }
 
             button:hover {
-                background-color: #c5c4c42c ;
+                background-color: #c5c4c42c;
                 transition: 1s all ease-in-out;
             }
         }
@@ -566,9 +567,7 @@ header {
 
 
 .projetos {
-   
     padding-bottom: 50px;
-    
 }
 
 .projetos-desenvolvidos {
@@ -589,8 +588,8 @@ header {
     }
 
     .coluna-proj {
-        background: linear-gradient(25deg,rgba(67, 112, 105, 0.171) 15%, rgba(32, 36, 35, 0.616) 67%, rgba(8, 8, 8, 0.664) 100%);
-        backdrop-filter: blur(50px);
+        background: linear-gradient(25deg,rgba(67, 112, 105, 0.171) 15%, rgba(32, 36, 35, 0.445) 67%, rgba(8, 8, 8, 0.356) 100%);
+        backdrop-filter: blur(68px);
         border-radius: 15px;
         width: 380px;
         height: 510px;
@@ -1033,91 +1032,6 @@ header {
     position: sticky;
     top: 15px;
 }
-
-.menu {
-    width: 75%;
-    background: #a7a5a517;
-    backdrop-filter: blur(20px);
-    margin: auto;
-    border-radius: 30px;
-    max-width: 2500px;
-
-    z-index: 9999999;
-
-    .menu-info {
-        margin-top: 15px;
-        border: outset 1px #2423231e;
-        border-radius: 30px;
-
-        padding: 0 15px;
-        display: flex;
-        justify-content: space-between;
-
-        .logo{
-            user-select: none;      
-            pointer-events: none;
-        }
-
-        .navbar {
-            display: flex;
-            align-items: center;
-            font-family: "Hubot Sans", sans-serif;
-            font-weight: 300;
-
-            ul {
-                display: flex;
-                
-            }
-
-            li {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                list-style: none;
-                padding-left: 20px;
-            }
-
-            a {
-                text-decoration: none;
-                color: rgb(255, 255, 255);
-                text-shadow: 1px 1px 10px #090e0998;
-            }
-
-            a:hover {
-                color: var(--corDois);
-                transition: all 1s ease;
-                font-weight: 400;
-            }
-
-            .contact {
-                margin-left: 20px;
-                background-color: #4370692d;
-                backdrop-filter: blur(30px);
-                border-radius: 25px;
-                border: 1px solid rgba(255, 255, 255, 0.164);
-                transition: 0.3s ease-in;
-
-                li {
-                    padding: 10px;
-                }
-
-                a {
-                    color: #ffffff;
-                    transition: 0.3s ease-in;
-                }
-            }
-
-            .contact:hover {
-                background-color: var(--corDois);
-
-            }
-
-
-        }
-    }
-
-}
-
 
 .container-principio {
     display: flex;
@@ -2036,8 +1950,6 @@ header {
     padding: 0;
 }
 
-
-
 body {
   background-color: var(--corBack);
 }
@@ -2047,91 +1959,6 @@ header {
     position: sticky;
     top: 15px;
 }
-
-.menu {
-    width: 75%;
-    background: #a7a5a517;
-    backdrop-filter: blur(20px);
-    margin: auto;
-    border-radius: 30px;
-    max-width: 2500px;
-
-    z-index: 9999999;
-
-    .menu-info {
-        margin-top: 15px;
-        border: outset 1px #2423231e;
-        border-radius: 30px;
-
-        padding: 0 15px;
-        display: flex;
-        justify-content: space-between;
-
-        .logo{
-            user-select: none;      
-            pointer-events: none;
-        }
-
-        .navbar {
-            display: flex;
-            align-items: center;
-            font-family: "Hubot Sans", sans-serif;
-            font-weight: 300;
-
-            ul {
-                display: flex;
-                
-            }
-
-            li {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                list-style: none;
-                padding-left: 20px;
-            }
-
-            a {
-                text-decoration: none;
-                color: rgb(255, 255, 255);
-                text-shadow: 1px 1px 10px #090e0998;
-            }
-
-            a:hover {
-                color: var(--corDois);
-                transition: all 1s ease;
-                font-weight: 400;
-            }
-
-            .contact {
-                margin-left: 20px;
-                background-color: #4370692d;
-                backdrop-filter: blur(30px);
-                border-radius: 25px;
-                border: 1px solid rgba(255, 255, 255, 0.164);
-                transition: 0.3s ease-in;
-
-                li {
-                    padding: 10px;
-                }
-
-                a {
-                    color: #ffffff;
-                    transition: 0.3s ease-in;
-                }
-            }
-
-            .contact:hover {
-                background-color: var(--corDois);
-
-            }
-
-
-        }
-    }
-
-}
-
 
 .container-principio {
     display: flex;
