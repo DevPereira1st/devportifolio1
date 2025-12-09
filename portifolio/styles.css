@@ -128,7 +128,6 @@ header {
     }
 
     .p {
-         
         align-items: center;
         font-family: "Funnel Display", sans-serif;
         width: 70%;
@@ -150,13 +149,12 @@ header {
         gap: 15px;
         
         .btn-github {
-
             button {
                 width: 45px;
                 height: 45px;
                 background-color:  #c5c4c410 ;
                 backdrop-filter: blur(68px);
-                border: 0.5px solid var(--corQuatro);
+                border: 0.5px solid #c5c4c410;
                 border-radius: 12px;
 
                 a, 
@@ -174,13 +172,12 @@ header {
         }
 
         .btn-cv {
-
             button {
                 width: auto;
                 height: 45px;
                 background-color: #c5c4c410 ;
                 backdrop-filter: blur(68px);
-                border: 0.5px solid var(--corQuatro);
+                border: 0.5px solid #c5c4c410;
                 border-radius: 12px;
                 padding: 0 10px;
 
